@@ -11,18 +11,122 @@
         width: 100vw;
     }
     section {
+        position: relative;
+        display: inline-block;
         width: 80vw;
         height: 280px;
+        margin: 0px;
+        transition: width 0.3s;
     }
     div#imagem {
-        display: inline-block;
-    }
-    #imagem > img {
-        width: 25vw;
+        width: 20vw;
         height: 280px;
+        margin: 0px;
+        background: #5f2c82 url('../imagens/pexels-sean-whang-804269.jpg') no-repeat;
+        background-size: cover;
+        background-position: top center;
         border-radius: 20px 0px 0px 20px;
+        transition: width 0.3s;
     }
-    div#mensagem > {
-        display: inline-block;
+    div#imagem > img {
+        display: none;
     }
+    div#mensagem {
+        position: absolute;
+        top: -5%;
+        width: 60vw;
+        display: block;
+        float: right;
+        text-align: center;
+        transition: width 0.3s;
+    }
+    form {
+        position: absolute;
+        top: 30%;
+        width: 60vw;
+        display: block;
+        transition: width 0.3s;
+    }
+    #info {
+        position: absolute;
+        width: 60vw;
+        height: 250px;
+        top: 5%;
+        left: 25%;
+        display: block;
+        transition: width 0.3s;
+    }
+    div#usuario {
+        width: 59vw;
+        transition: width 0.3s;
+    }
+    input#iemail {
+        width: 53vw;
+        transition: width 0.3s;
+    }    
+    input#isenha {
+        width: 53vw;
+        transition: width 0.3s;
+    }
+    div#senha {
+        width: 59vw;
+        transition: width 0.3s;
+    }
+    input#ientrar {
+        width: 59vw;
+        transition: width 0.3s;
+    }
+    input#iesqueci {
+        width: 59vw;
+        transition: width 0.3s;
+    }
+}
+@media screen and (min-width: 992px) {
+    section {
+        height: 400px;
+    }
+    div#imagem {
+        float: right;
+        width: 25vw;
+        border-radius: 0px 10px 10px 0px;
+        height: 400px;
+    }
+    #info {
+        top: 10%;
+        left: -3%;
+    }    
+    #mensagem > h1{
+        font-size: 2.5em;
+    }
+    #mensagem > p {
+        padding: 5px;
+        font-size: 0.9em;
+    }
+    div#usuario {
+        margin-top: 40px;
+        width: 53vw;
+        transition: width 0.3s;
+    }
+    input#iemail {
+        width: 48vw;
+        transition: width 0.3s;
+    }    
+    input#isenha {
+        width: 48vw;
+        transition: width 0.3s;
+    }
+    div#senha {
+        width: 53vw;
+        transition: width 0.3s;
+    }
+    input#ientrar {
+        width: 53vw;
+        transition: width 0.3s;
+    }
+    input#iesqueci {
+        width: 53vw;
+        transition: width 0.3s;
+    }
+    
+    
 }

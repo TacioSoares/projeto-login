@@ -11,6 +11,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body {
+    display: flex;
+    justify-content: center; /* alinha horizontalmente */
+    align-items: center; /* alinha verticalmente */
+}
 main {
     background-color: #5f2c82;
     height: 100vh;
@@ -128,5 +133,5 @@ div#botoes {
     background-color: #377976 ;
 }
 #iesqueci:hover {
-    background-color: lightblue;
+    background-color: #49a09d;
 }
