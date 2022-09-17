@@ -7,9 +7,11 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
 </head>
 <body>
     <main>
@@ -20,7 +22,7 @@
             <div id="mensagem">
                 <h1>Login</h1>
                 <p>
-                    Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
+                    Seja bem-vindo(a) novamente. <br> Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
                 </p>
             </div>
             <form action="cadastro.php" method="post">
@@ -31,7 +33,7 @@
                                 account_circle
                             </span>
                         </label>
-                        <input type="email" name="email" id="iemail" placeholder="seu e-mail">
+                        <span id="usu"><input type="email" name="email" id="iemail" placeholder=" seu e-mail"></span>
                     </p>
                 </div>
                     <div id="senha">
@@ -41,15 +43,15 @@
                                     vpn_key
                                 </span>
                             </label>
-                            <input type="password" name="senha" id="isenha" placeholder="sua senha">
+                            <input type="password" name="senha" id="isenha" placeholder=" sua senha">
                         </p>
                     </div>
                     <div id="botoes">
                         <p>
-                            <input type="submit" value="Entrar" id="ientrar">
+                            <a href="#"><input type="submit" value="Entrar" id="ientrar"></a>
                         </p>
                         <p>
-                            <input type="button" value="Esqueci minha senha" id="iesqueci">
+                            <a href="#"><input type="button" value="Esqueci minha senha" id="iesqueci"></a>
                         </p>
                     </div>
             </form>
