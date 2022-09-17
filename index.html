@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <img src="imagens/pexels-sean-whang-804269.jpg" alt="Foto login">
+            </div>
+            <div id="mensagem">
+                <h1>Login</h1>
+                <p>
+                    Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
+                </p>
+            </div>
+            <form action="cadastro.php" method="post">
+                <div id="usuario">
+                    <p>
+                        <label for="iemail" id="paraconta">
+                            <span class="material-icons" id="boneco">
+                                account_circle
+                            </span>
+                        </label>
+                        <input type="email" name="email" id="iemail" placeholder="seu e-mail">
+                    </p>
+                </div>
+                    <div id="senha">
+                        <p>
+                            <label for="isenha" id="parachave">
+                                <span class="material-icons" id="chave">
+                                    vpn_key
+                                </span>
+                            </label>
+                            <input type="password" name="senha" id="isenha" placeholder="sua senha">
+                        </p>
+                    </div>
+                    <div id="botoes">
+                        <p>
+                            <input type="submit" value="Entrar" id="ientrar">
+                        </p>
+                        <p>
+                            <input type="button" value="Esqueci minha senha" id="iesqueci">
+                        </p>
+                    </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

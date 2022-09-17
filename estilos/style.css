@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* 
+    Paleta de cores
+    verde: #49a09d
+    Lilás: #5f2c82
+*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 515px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+}
+#imagem > img {
+    width: 250px;
+    height: 200px;
+}
+#mensagem > h1 {
+    display: block;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+#mensagem > p {
+    display: block;
+    font-size: 0.83em;
+    padding: 8px;
+    font-size: light;
+    color: rgba(0, 0, 0, 0.788);
+}
+#usuario {
+    margin: auto;
+    width: 240px;
+    background-color: #5f2c82;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#senha {
+    margin: auto;
+    width: 240px;
+    background-color: #5f2c82;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#usuario > p {
+    text-align: center;
+}
+#senha > p {
+    text-align: center;
+}
+#iemail {
+    border: 2px solid #5f2c82;
+    border-radius: 10px;
+    height: 30px;
+}
+#isenha {
+    border: 2px solid #5f2c82;
+    border-radius: 10px;
+    height: 30px;
+}
+#boneco {
+    color: white;
+    font-size: 2em;
+    margin-top: 6px;
+}
+#chave {
+    color: white;
+    font-size: 2em;
+    margin-top: 6px;
+}
+#botoes {
+    text-align: center;
+}
+#ientrar {
+    margin-bottom: 5px;
+}
